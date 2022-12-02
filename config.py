@@ -28,15 +28,14 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1293361587"))
 OWNER = os.environ.get("OWNER", "Thismebots")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", ""postgres://zprwfjam:pcNPyft1
-A8_Xh_u8-3tafg9r11Z74fFm@peanut.db.elephantsql.com/zprwfjam")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://elwipjpc:F5ZgUrUPb-BV3EhXFQrXsNwLs5RDspRj@peanut.db.elephantsql.com/elwipjpc")
 
 # Username CH & Group
 CHANNEL = os.environ.get("CHANNEL", "")
 GROUP = os.environ.get("GROUP", "")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001606236982"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001587796537"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001895037431"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
